@@ -1,20 +1,21 @@
 @import url('https://fonts.cdnfonts.com/css/cabinet-grotesk');
 
 body,
-button {
+button,
+input {
      font-family: 'Cabinet Grotesk', sans-serif;
      margin: 0;
      box-sizing: border-box;
 }
 
 main {
-     padding: 0 100px;
+     padding: 0 150px;
 }
 
 nav {
      display: flex;
      justify-content: space-between;
-     padding: 0 100px;
+     padding: 0 200px;
 }
 
 button {
@@ -22,7 +23,7 @@ button {
      background: transparent;
      margin-top: 20px;
      border-radius: 4px;
-     padding: 9px 15px;
+     padding: 10px 16px;
      cursor: pointer;
      /* font-weight: 600; */
      margin-right: 15px;
@@ -44,7 +45,7 @@ button {
 }
 
 .nav__link>li {
-     font-size: 18px;
+     font-size: 17px;
      font-weight: 400;
      cursor: pointer;
 }
@@ -52,4 +53,49 @@ button {
 .sign__up {
      background: #4F4CEE;
      color: white;
+}
+.top__balls {
+     display: flex;
+     justify-content: space-between;
+}
+
+.big__title {
+     font-size: 48px;
+     color: #4F4CEE;
+     align-items: center;
+     text-align: center;
+}
+
+.big__title>h1 {
+     margin: 15px 10px;
+}
+
+.svg__down {
+     align-items: center;
+     text-align: center;
+     margin: 0 auto;
+}
+
+.search__wrapper>input {
+     /* padding: 20px; */
+     outline: none;
+     padding: 20px 120px;
+     margin-top: -25px;
+     font-size: 15px;
+}
+
+.search__wrapper {
+     display: flex;
+     justify-content: center;
+
+}
+
+.search_input {
+     border-radius: 4px 0px 0px 4px;
+     border-right: #DDDDDE;
+}
+
+.date_input {
+     border-radius: 0px 4px 4px 0px;
+     border-left: #DDDDDE;
 }
