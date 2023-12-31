@@ -1,0 +1,55 @@
+@import url('https://fonts.cdnfonts.com/css/cabinet-grotesk');
+
+body,
+button {
+     font-family: 'Cabinet Grotesk', sans-serif;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+main {
+     padding: 0 100px;
+}
+
+nav {
+     display: flex;
+     justify-content: space-between;
+     padding: 0 100px;
+}
+
+button {
+     border: 1.8px solid #4F4CEE;
+     background: transparent;
+     margin-top: 20px;
+     border-radius: 4px;
+     padding: 9px 15px;
+     cursor: pointer;
+     /* font-weight: 600; */
+     margin-right: 15px;
+     font-size: 15px;
+}
+
+.navbar__wrapper {
+     /* background-color: aliceblue; */
+     border-bottom: .5px solid #DDDDDE;
+     ;
+
+}
+
+.nav__link {
+     display: flex;
+     list-style: none;
+     gap: 25px;
+     margin-top: 25px;
+}
+
+.nav__link>li {
+     font-size: 18px;
+     font-weight: 400;
+     cursor: pointer;
+}
+
+.sign__up {
+     background: #4F4CEE;
+     color: white;
+}
