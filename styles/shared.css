@@ -1,13 +1,20 @@
 @import url('https://fonts.cdnfonts.com/css/cabinet-grotesk');
 
 body,
-button,
-input {
+input,
+select,
+textarea,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+textarea {
      font-family: 'Cabinet Grotesk', sans-serif;
      margin: 0;
      box-sizing: border-box;
 }
-
 main {
      padding: 0 150px;
 }
@@ -98,4 +105,46 @@ button {
 .date_input {
      border-radius: 0px 4px 4px 0px;
      border-left: #DDDDDE;
+}
+.title_upcomingevent_text {
+     display: flex;
+     justify-content: space-between;
+     margin: 100px 265px 0;
+}
+
+.corousal__img>img {
+     width: 275px;
+     height: 180px;
+     border-radius: 4px 4px 0px 0px;
+}
+
+.corousal__img {
+     /* border: 1.5px solid #BDBDBD; */
+     border-radius: 4px 4px 0px 0px;
+     /* box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px; */
+     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.corousal__img {
+     align-items: center;
+     text-align: center;
+}
+
+.ticket__wrapper {
+     display: flex;
+     width: 275px;
+     height: 320px;
+     margin: 10px 265px 0;
+     gap: 6px;
+}
+
+.card__text {
+     display: flex;
+     justify-content: space-between;
+     padding: 20px 20px;
+     gap: 3px;
+}
+
+.sub-text__title {
+     padding-bottom: 6px;
 }
