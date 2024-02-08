@@ -275,7 +275,6 @@ button {
   margin: 5px 0;
 }
 
-
 /* Mobile media query */
 @media (min-width: 100px) and (max-width: 500px) {
   body {
@@ -323,11 +322,11 @@ button {
 
   .search_btn {
     position: absolute;
-    left: 98px;
-    top: 462px;
+    left: 95px;
+    top: 419px;
     padding: 6px 45px;
     border-radius: 80px;
-}
+  }
 
   .mobile-landing__img {
     width: 310px;
@@ -439,30 +438,262 @@ button {
     height: auto;
     margin-top: 250px;
   }
+
+  .big__title > h1 {
+    margin: 20px 11px;
+  }
 }
 
 /* Mobile iphbe 12 pro */
 @media (min-width: 375px) and (max-width: 500px) {
-     .search_btn {
+  .search_btn {
     position: absolute;
     left: 129px;
-    top: 462px;
+    top: 418px;
     padding: 6px 45px;
     border-radius: 80px;
-}
+  }
 
-.ticket__wrapper {
+  .ticket__wrapper {
     display: flex;
     flex-direction: column;
     width: 277px;
     height: auto;
     gap: 15px;
     margin: 0 auto;
+  }
+
+  .title_upcomingevent_text {
+    display: flex;
+    justify-content: space-between;
+    margin: 109px 71px 14px 58px;
+  }
+}
+
+/* Mobile iphbe 12 pro */
+@media (min-width: 425px) and (max-width: 500px) {
+  .search_btn {
+    position: absolute;
+    left: 152px;
+    top: 396px;
+    padding: 6px 45px;
+    border-radius: 80px;
+  }
+}
+
+/* Mobile iphbe 12 pro */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .big__title > h1 {
+    margin: 18px 31px;
+    font-size: 40px;
+}
+  .search_btn {
+    position: absolute;
+    left: 637px;
+    top: 787px;
+  }
+
+  .search__wrapper > input {
+    /* padding: 20px; */
+    outline: none;
+    padding: 8px 106px;
+    margin-top: -33px;
+    font-size: 12px;
+}
+
+  .top__balls > img{
+     width: 70px;
+     height: auto;
+  }
+
+  .mobile-landing__img {
+     width: 250px;
+     height: auto;
+  }
+
+  .img-hidden {
+     width: 125px;
+     height: auto;
+  }
+  h2 {
+    font-size: 18px;
+  }
+
+  main {
+    padding: 0 15px;
+  }
+
+  nav {
+    display: flex;
+    justify-content:space-around;
+    padding: 0 10px;
+  }
+
+  .logo__img {
+     margin-top: 10px;
+  }
+
+  .logo__img > img {
+     width: 105px;
+     height: auto;
+  }
+
+  .footer__lilnk > a {
+    margin: 5px 0;
+    color: rgb(214, 214, 214);
+    text-decoration: none;
+    font-size: 10px;
+}
+
+  .ticket__wrapper {
+    display: flex;
+    width: 740px;
+    height: auto;
+    margin: 0 auto;
+    gap: 29px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* .btn__wrapper {
+    display: flex;
+  } */
+
+  .footer__wrappper {
+    display: flex;
+    gap: 17px;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    margin: 0 -85px;
+    padding-top: 37px;
+    /* margin-bottom: 50px; */
+}
+
+  .tablet-hidden {
+     display: none;
+  }
+
+  button {
+    border: 1.8px solid #4f4cee;
+    background: transparent;
+    /* margin-top: 43px; */
+    border-radius: 4px;
+    padding: 7px 16px;
+    cursor: pointer;
+    /* font-weight: 600; */
+    margin-right: 8px;
+    font-size: 10px;
+}
+
+.nav__link > li {
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+  .title_upcomingevent_text {
+    display: flex;
+    justify-content: space-between;
+    margin: 65px 102px 22px 87px;
+  }
+
+  .search_btn {
+    position: absolute;
+    left: 639px;
+    top: 338px;
+}
+
+  .topselling__img > img {
+    width: 283px;
+    height: inherit;
+    border-radius: 4px 4px 4px 4px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+  .hotdeal__img > img {
+    width: 280px;
+    height: inherit;
+    border-radius: 4px 4px 4px 4px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  footer {
+    padding: 0 146px;
+    background: #4f4cee;
+    color: #ffffff;
+    height: auto;
+    margin-top: 100px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+     main {
+    padding: 0 57px;
+}
+
+     .img-hidden {
+    width: 143px;
+    height: auto;
+}
+
+.search__wrapper > input {
+    /* padding: 20px; */
+    outline: none;
+    padding: 12px 161px;
+    margin-top: -33px;
+    font-size: 12px;
+}
+
+.ticket__wrapper {
+    display: flex;
+    width: 898px;
+    height: auto;
+    margin: 0 auto;
+    gap: 13px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .title_upcomingevent_text {
     display: flex;
     justify-content: space-between;
-    margin: 109px 71px 14px 58px;
+    margin: 82px 54px 22px 30px;
 }
+
+.mobile-landing__img {
+    width: 262px;
+    height: auto;
+}
+
+.search_btn {
+    position: absolute;
+    left: 850px;
+    top: 351px;
+}
+
+.hotdeal__img > img {
+    width: 420px;
+    height: inherit;
+    border-radius: 4px 4px 4px 4px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer__wrappper {
+    display: flex;
+    gap: 17px;
+    justify-content: center;
+    align-items: start;
+    text-align: start;
+    margin: 0 -85px;
+    padding-top: 37px;
+    /* margin-bottom: 50px; */
+}
+
 }
